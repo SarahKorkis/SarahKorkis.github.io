@@ -219,4 +219,225 @@ h1 {
     transform: rotate(335deg);
 
     z-index: 1;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 29, 37);
+    height: 150rem;   
+}
+/*.container {
+	width: 550px;
+	height: 400px;
+    margin-top: 25rem;
+    position: absolute;
+}
+.header h2 {
+    font-weight: 400;
+    color: #fff;
+}
+.main-content {
+	width: 100%;
+	height: 300px;
+	padding: 50px 40px;
+	background-color: #fff;
+	border-radius: 15px;
+	box-shadow: 0 25px 31px 0 rgba(0,0,0,0.5);
+}
+
+.text-area {
+	text-align: center;
+	font-size: 25px;
+	color: #262626;
+	line-height: 1.5;
+    
+}
+.text-area .icon {
+    margin-right: 5px;
+}
+.main-content .writer {
+    text-transform: uppercase;
+	letter-spacing: 5px;
+	color: red;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 25px;
+	
+}
+.main-content .button-area {
+	display: grid;
+	place-items: center;
+	margin-top: 20px;
+	padding: 10px 0;
+}
+.button-area .btn button {
+    background-color: #262626;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    
+}
+.button-area button:active {
+    background-color: deepskyblue;
+}*/
+
+
+.Generator {
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.274);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
+    padding: 1rem;
+    right: 10rem;
+    top: 6.2rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position:absolute;
+}
+
+.Home {
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.274);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
+    padding: 1rem;
+    left: 15rem;
+    top: 6.2rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position:absolute;
+}
+
+.Procession {
+    top: 0rem;
+    position:absolute;
+    width: 96rem;
+    height: 20rem;
+    z-index: 0;
+}
+
+h1 {
+    top: 5rem;
+    font-size: 5rem;
+    color: white;
+    position:absolute;
+    z-index: 1;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
+}
+
+.Fpic1 {
+    top: 25rem;
+    left: 5rem;
+    position: absolute;
+    height: 20rem;
+    width: 30rem;
+    border-radius: 2rem;
+    z-index: 1;
+}
+
+.q1 {
+    top: 32rem;
+    left: 50rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    position:absolute;
+    z-index: 1;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.DivineMercy {
+    top: 50rem;
+    left: 65rem;
+    position: absolute;
+    height: 75%;
+    width: 22%;
+}
+
+.q2 {
+    top: 55rem;
+    left: 7rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    position:absolute;
+    z-index: 1;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
+    padding: 1rem;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.q3 {
+    top: 72rem;
+    left: 7rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    position:absolute;
+    z-index: 1;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
+    padding: 1rem;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.q4 {
+    top: 100rem;
+    left: 23rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    position:absolute;
+    z-index: 1;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
+    padding: 1rem;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.rays {
+  width: 0; 
+  height: 0;
+  top: 10rem; 
+  left: 20rem;
+  position: absolute;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  border-bottom: 1000px solid rgba(112, 0, 0, 0.388);
+  transform: rotate(25deg);
+  z-index: 1;
+}
+
+.rays1 {
+    width: 0; 
+    height: 0;
+    top: 10rem; 
+    left: 50rem;
+    position: absolute;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 1000px solid rgba(0, 50, 112, 0.388);
+    transform: rotateY(200deg);
+    transform: rotate(335deg);
+
+    z-index: 1;
 }
