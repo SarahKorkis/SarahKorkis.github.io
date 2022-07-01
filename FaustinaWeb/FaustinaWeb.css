@@ -127,9 +127,10 @@ h1 {
     height: 20rem;
     width: 30rem;
     border-radius: 2rem;
+    z-index: 1;
 }
 
-.Truth {
+.q1 {
     top: 32rem;
     left: 50rem;
     text-align: center;
@@ -150,8 +151,8 @@ h1 {
     width: 22%;
 }
 
-.hidden {
-    top: 60rem;
+.q2 {
+    top: 55rem;
     left: 7rem;
     text-align: center;
     font-size: 2rem;
@@ -162,4 +163,60 @@ h1 {
     padding: 1rem;
     width: 50%;
     background-color: rgba(255, 255, 255, 0.11);
+}
+
+.q3 {
+    top: 72rem;
+    left: 7rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    position:absolute;
+    z-index: 1;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
+    padding: 1rem;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.q4 {
+    top: 100rem;
+    left: 23rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    position:absolute;
+    z-index: 1;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
+    padding: 1rem;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.rays {
+  width: 0; 
+  height: 0;
+  top: 10rem; 
+  left: 20rem;
+  position: absolute;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  border-bottom: 1000px solid rgba(112, 0, 0, 0.388);
+  transform: rotate(25deg);
+  z-index: 1;
+}
+
+.rays1 {
+    width: 0; 
+    height: 0;
+    top: 10rem; 
+    left: 50rem;
+    position: absolute;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 1000px solid rgba(0, 50, 112, 0.388);
+    transform: rotateY(200deg);
+    transform: rotate(335deg);
+
+    z-index: 1;
 }
