@@ -11,6 +11,11 @@ body {
     background-color: chocolate;
     height: 100vh;    
 }
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .container {
 	width: 550px;
 	height: 400px;
