@@ -183,6 +183,72 @@ h1 {
     transform: rotate(120deg);
   }
 
+  .Rose4{
+    top: 30rem;
+    left: 20rem;
+    width: 5rem;
+    color: white;
+    position:absolute;
+    z-index: 1;
+    padding: 1rem;
+    filter: invert(100%);
+    top: -40px;
+    animation: roll 15s ease-in-out 5s infinite;
+    opacity: 0;
+    transition: ease-in-out 0s;
+    transform: rotate(20deg);
+  }
+
+  
+  .Rose5{
+    top: 30rem;
+    left: 30rem;
+    width: 5rem;
+    color: white;
+    position:absolute;
+    z-index: 1;
+    padding: 1rem;
+    filter: invert(100%);
+    top: -40px;
+    animation: roll 20s ease-in-out 6s infinite;
+    opacity: 0;
+    transition: ease-in-out 0s;
+    transform: rotate(90deg);
+  }
+
+  .Rose6{
+    top: 30rem;
+    left: 40rem;
+    width: 5rem;
+    color: white;
+    position:absolute;
+    z-index: 1;
+    padding: 1rem;
+    filter: invert(100%);
+    top: -40px;
+    animation: roll 40s ease-in-out 0.3s infinite;
+    opacity: 0;
+    transition: ease-in-out 0s;
+    transform: rotate(60deg);
+  }
+
+  
+  .Rose7{
+    top: 30rem;
+    left: 70rem;
+    width: 5rem;
+    color: white;
+    position:absolute;
+    z-index: 1;
+    padding: 1rem;
+    filter: invert(100%);
+    top: -40px;
+    animation: roll 10s ease-in-out 8s infinite;
+    opacity: 0;
+    transition: ease-in-out 0s;
+    transform: rotate(200deg);
+  }
+
   @keyframes roll{
     0%{
         opacity: 0;
