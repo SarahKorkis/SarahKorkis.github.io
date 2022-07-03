@@ -7,7 +7,7 @@
 body {
     display: flex;
     justify-content: center;
-    background-color: #A86A6A;
+    background-color: rgb(34, 29, 37);
     height: 100vh;    
 }
 
@@ -23,6 +23,28 @@ h1 {
     z-index: 1;
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
 }
+
+h1::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  h1:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  h1::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: rgba(255, 255, 255, 0.17);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+
 .Generator {
     z-index: 1;
     color: rgb(255, 255, 255);
@@ -36,6 +58,27 @@ h1 {
     font-weight: bold;
     position: absolute;
 }
+
+.Generator::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  .Generator:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .Generator::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: rgba(255, 255, 255, 0.17);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
 
 .Home {
     z-index: 1;
@@ -51,6 +94,28 @@ h1 {
     position: absolute;
 }
 
+
+.Home::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  .Home:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .Home::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: rgba(255, 255, 255, 0.17);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+
 .Procession {
     margin-top: 0rem;
     position: absolute;
@@ -58,6 +123,7 @@ h1 {
     height: 20rem;
     z-index: 0;
 }
+
 
 .Benedict {
     top: 27.2rem;
