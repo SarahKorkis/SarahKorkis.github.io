@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(34, 29, 37);
-    height: 200rem;
+    height: 200%;
 }
 
 body::-webkit-scrollbar {
@@ -166,11 +166,11 @@ h1 {
 }
 
 .ThereseS{
-  top: 125rem;
-  left: 55rem;
+  top: 250%;
+  left: 60%;
   position: absolute;
-  height: 30rem;
-  width: 35rem;
+  height: 70%;
+  width: 30%;
   z-index: 1;
 }
 
@@ -591,11 +591,17 @@ h1 {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 381px),(max-height: 850px) {
+
+  .Procession{
+    top: 0%;
+    width: 100%;
+  }
+
   .Header{
     font-size: 150%;
     top: 10%;
-    left: 30%;
+    left: 28%;
   }
   .Generator{
     font-size: 80%;
@@ -613,10 +619,11 @@ h1 {
     height: 10%;
     top: 25%;
     left: 10%;
+    border-radius: 10%;
   }
   .q1{
     top: 27%;
-    left: 50%;
+    left: 55%;
     width: 28%;
     height: 6%;
     font-size: 2%;
@@ -639,5 +646,54 @@ h1 {
     width: 40%;
     height: 5%;
     font-size: 2%;
+  }
+  .q3{
+    top: 52%;
+    left: 10%;
+    width: 40%;
+    height: 5%;
+    font-size: 2%;
+  }
+  .q4{
+    top: 52%;
+    left: 10%;
+    width: 40%;
+    height: 5%;
+    font-size: 2%;
+  }
+  .q5{
+    top: 52%;
+    left: 10%;
+    width: 40%;
+    height: 5%;
+    font-size: 2%;
+  }
+  .q6{
+    top: 52%;
+    left: 10%;
+    width: 40%;
+    height: 5%;
+    font-size: 2%;
+  }
+  .ThereseEuch{
+    width: 20%;
+    height: 20%;
+    top: 40%;
+  }
+  .ThereseS{
+    width: 20%;
+    height: 20%;
+    top: 40%;
+    right: 100%;
+  }
+  .Tpic2{
+    width: 20%;
+    height: 20%;
+    top: 40%;
+  }
+  .ThereseFam{
+    width: 20%;
+    height: 20%;
+    top: 40%;
   }
 }
