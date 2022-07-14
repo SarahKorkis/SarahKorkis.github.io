@@ -19,8 +19,8 @@ body::-webkit-scrollbar {
 .container {
 	width: 550px;
 	height: 400px;
-    margin-top: 23rem;
-    position: absolute;
+  top: 23rem;
+  position: absolute;
 }
 .header h2 {
     font-weight: 400;
