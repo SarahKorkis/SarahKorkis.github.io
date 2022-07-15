@@ -696,4 +696,37 @@ h1 {
     height: 20%;
     top: 40%;
   }
+  .Rose{
+    left:50%;
+  }
+  .Rose2{
+    left:10%;
+  }
+  .Rose3{
+    left:30%;
+  }
+  .Rose4{
+    left:70%;
+  }
+  .Rose5{
+    left:60%;
+  }
+  .Rose6{
+    left:20%;
+  }
+  .Rose7{
+    left:5%;
+  }
+  @keyframes roll{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(844px);
+        opacity: 0;
+    }
+}
 }
