@@ -88,7 +88,8 @@ body::-webkit-scrollbar {
 .Generator {
     z-index: 1;
     color: rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0.274);
+    background-color: transparent;
+    outline-style: auto;
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
     padding: 1%;
     right: 10%;
@@ -103,7 +104,8 @@ body::-webkit-scrollbar {
 .Home {
     z-index: 1;
     color: rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0.274);
+    background-color: transparent;
+    outline-style: auto;
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
     padding: 1%;
     left: 15%;
@@ -203,7 +205,8 @@ h1 {
     z-index: 1;
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
     padding: 2%;
-    background-color: rgba(255, 255, 255, 0.11);
+    background-color: transparent;
+    outline-style: auto;
     animation: 2s anim-lineUp ease-out;
     transform: translate(-50%),(-50%);
 }
@@ -219,7 +222,8 @@ h1 {
   z-index: 1;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
   padding: 2%;
-  background-color: rgba(255, 255, 255, 0.11);
+  background-color: transparent;
+  outline-style: auto;
   animation: 2s anim-lineUp ease-out;
 }
 
@@ -234,7 +238,8 @@ h1 {
   z-index: 1;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
   padding: 2%;
-  background-color: rgba(255, 255, 255, 0.11);
+  background-color: transparent;
+  outline-style: auto;
   animation: 2s anim-lineUp ease-out;
 }
 
@@ -249,7 +254,8 @@ h1 {
   z-index: 1;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
   padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.11);
+  background-color: transparent;
+  outline-style: auto;
   animation: 2s anim-lineUp ease-out;
 }
 
@@ -264,7 +270,8 @@ h1 {
   z-index: 1;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
   padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.11);
+  background-color: transparent;
+  outline-style: auto;
   animation: 2s anim-lineUp ease-out;
 }
 
@@ -279,7 +286,8 @@ h1 {
   z-index: 1;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
   padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.11);
+  background-color: transparent;
+  outline-style: auto;
   animation: 2s anim-lineUp ease-out;
 }
 
@@ -294,7 +302,8 @@ h1 {
   z-index: 1;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
   padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.11);
+  background-color: transparent;
+  outline-style: auto;
   animation: 2s anim-lineUp ease-out;
 }
 
@@ -591,6 +600,14 @@ h1 {
     }
 }
 
+
+
+
+/*MOBILE*/
+
+
+
+
 @media only screen and (max-width: 420px){
 
   body{
@@ -631,7 +648,8 @@ h1 {
     width:auto;
     height: 20%;
     font-size: 90%;
-    background: transparent;
+    background-color: transparent;
+    outline-style: auto;
   }
   .Therese{
     width: 35%;
@@ -648,6 +666,8 @@ h1 {
     max-height: 20%;
     height: auto;
     font-size: 80%;
+    background-color: transparent;
+    outline-style: auto;
   }
   .q7{
     top: 65%;
@@ -658,6 +678,8 @@ h1 {
     min-height: 6%;
     height: auto;
     font-size: 80%;
+    background-color: transparent;
+    outline-style: auto;
   }
   .q3{
     top: 82%;
@@ -759,11 +781,11 @@ h1 {
   .Header{
     font-size: 150%;
     top: 10%;
-    left: 28%;
+    left: 32%;
   }
   .Generator{
     font-size: 80%;
-    right: 15%;
+    right: 10%;
     top: 10.5%;
   }
   .Home{
@@ -783,9 +805,9 @@ h1 {
     top: 32%;
     left: 55%;
     width:auto;
-    height: 20%;
+    height: 15%;
     font-size: 90%;
-    background: transparent;
+    outline-style: auto;
   }
   .Therese{
     width: 35%;
@@ -802,9 +824,10 @@ h1 {
     max-height: 20%;
     height: auto;
     font-size: 80%;
+    outline-style: auto;
   }
   .q7{
-    top: 77%;
+    top: 76%;
     left: 5%;
     min-width: 40%;
     max-width: 50%;
@@ -813,50 +836,60 @@ h1 {
     height: auto;
     font-size: 80%;
   }
-  .q3{
-    top: 82%;
-    left: 10%;
-    width: 40%;
-    height: 5%;
-    font-size: 2%;
+
+  .Tpic2{
+    width: 70%;
+    height: 25%;
+    top: 95%;
+    left: 14%;
   }
-  .q4{
-    top: 82%;
+
+  .q3{
+    top: 125%;
     left: 10%;
+    max-width: 80%;
+    width: auto;
+    height: 18%;
+    font-size: 90%;
+  }
+
+  .ThereseS{
+    width: 50%;
+    height: 40%;
+    top: 150%;
+    left: 5%;
+  }
+
+  .q4{
+    top: 152%;
+    left: 57%;
     width: 40%;
-    height: 5%;
-    font-size: 2%;
+    height: 18%;
+    font-size: 90%;
   }
   .q5{
-    top: 82%;
-    left: 10%;
+    top: 172%;
+    left: 57%;
     width: 40%;
-    height: 5%;
-    font-size: 2%;
+    height: 17%;
+    font-size: 90%;
   }
-  .q6{
-    top: 82%;
-    left: 10%;
-    width: 40%;
-    height: 5%;
-    font-size: 2%;
-  }
+
   .ThereseEuch{
-    width: 20%;
-    height: 20%;
-    top: 80%;
+    width: 50%;
+    height: 40%;
+    left: 50%;
+    top: 195%;
   }
-  .ThereseS{
-    width: 20%;
-    height: 20%;
-    top: 80%;
-    right: 100%;
+
+  .q6{
+    top: 200%;
+    left: 4%;
+    width: 40%;
+    height: 25%;
+    font-size: 100%;
   }
-  .Tpic2{
-    width: 20%;
-    height: 20%;
-    top: 80%;
-  }
+
   .ThereseFam{
     width: 20%;
     height: 20%;
