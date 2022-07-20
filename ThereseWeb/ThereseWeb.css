@@ -591,8 +591,12 @@ h1 {
     }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 420px){
 
+  body{
+    height: 250%;
+  }
+  
   .Procession{
     top: 0%;
     width: 100%;
@@ -625,10 +629,9 @@ h1 {
     top: 27%;
     left: 55%;
     width:auto;
-    min-width: 40%;
-    height: auto;
-    min-height: 15%;
+    height: 20%;
     font-size: 90%;
+    background: transparent;
   }
   .Therese{
     width: 35%;
@@ -648,6 +651,160 @@ h1 {
   }
   .q7{
     top: 65%;
+    left: 5%;
+    min-width: 40%;
+    max-width: 50%;
+    width: auto;
+    min-height: 6%;
+    height: auto;
+    font-size: 80%;
+  }
+  .q3{
+    top: 82%;
+    left: 10%;
+    width: 40%;
+    height: 5%;
+    font-size: 2%;
+  }
+  .q4{
+    top: 82%;
+    left: 10%;
+    width: 40%;
+    height: 5%;
+    font-size: 2%;
+  }
+  .q5{
+    top: 82%;
+    left: 10%;
+    width: 40%;
+    height: 5%;
+    font-size: 2%;
+  }
+  .q6{
+    top: 82%;
+    left: 10%;
+    width: 40%;
+    height: 5%;
+    font-size: 2%;
+  }
+  .ThereseEuch{
+    width: 20%;
+    height: 20%;
+    top: 80%;
+  }
+  .ThereseS{
+    width: 20%;
+    height: 20%;
+    top: 80%;
+    right: 100%;
+  }
+  .Tpic2{
+    width: 20%;
+    height: 20%;
+    top: 80%;
+  }
+  .ThereseFam{
+    width: 20%;
+    height: 20%;
+    top: 80%;
+  }
+  .Rose{
+    left:50%;
+  }
+  .Rose2{
+    left:10%;
+  }
+  .Rose3{
+    left:30%;
+  }
+  .Rose4{
+    left:70%;
+  }
+  .Rose5{
+    left:60%;
+  }
+  .Rose6{
+    left:20%;
+  }
+  .Rose7{
+    left:5%;
+  }
+  @keyframes roll{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(844px);
+        opacity: 0;
+    }
+}
+}
+
+
+
+@media only screen and (max-height: 670px){
+
+  body{
+    height: 250%;
+  }
+  
+  .Procession{
+    top: 0%;
+    width: 100%;
+  }
+
+  .Header{
+    font-size: 150%;
+    top: 10%;
+    left: 28%;
+  }
+  .Generator{
+    font-size: 80%;
+    right: 15%;
+    top: 10.5%;
+  }
+  .Home{
+    font-size: 90%;
+    top: 10.5%;
+    left: 10%;
+  }
+
+  .Tpic1 {
+    width: 50%;
+    height: 20%;
+    top: 30%;
+    left: 2%;
+    border-radius: 10%;
+  }
+  .q1{
+    top: 32%;
+    left: 55%;
+    width:auto;
+    height: 20%;
+    font-size: 90%;
+    background: transparent;
+  }
+  .Therese{
+    width: 35%;
+    height: 35%;
+    top: 55%;
+  }
+  .q2{
+    top: 56%;
+    left: 5%;
+    min-width: 40%;
+    max-width: 50%;
+    width: auto;
+    min-height: 6%;
+    max-height: 20%;
+    height: auto;
+    font-size: 80%;
+  }
+  .q7{
+    top: 75%;
     left: 5%;
     min-width: 40%;
     max-width: 50%;
