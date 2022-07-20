@@ -888,7 +888,7 @@ h1 {
   .ThereseS{
     width: 50%;
     height: 40%;
-    top: 145%;
+    top: 150%;
     left: 5%;
   }
 
@@ -929,7 +929,7 @@ h1 {
     max-width: 40%;
     width: auto;
     min-height: 6%;
-    max-height: 40%;
+    max-height: 30%;
     height: auto;
     font-size: 80%;
   }
