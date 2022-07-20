@@ -931,7 +931,7 @@ h1 {
     min-height: 6%;
     max-height: 40%;
     height: auto;
-    font-size: 100%;
+    font-size: 90%;
   }
 
   .ThereseFam{
@@ -968,7 +968,7 @@ h1 {
         opacity: 1;
     }
     100%{
-        transform: translateY(844px);
+        transform: translateY(1600px);
         opacity: 0;
     }
 }
