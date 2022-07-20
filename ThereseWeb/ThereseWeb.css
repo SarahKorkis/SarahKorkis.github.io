@@ -208,7 +208,6 @@ h1 {
     background-color: transparent;
     outline: solid white;
     animation: 2s anim-lineUp ease-out;
-    transform: translate(-50%),(-50%);
 }
 
 .q2 {
@@ -645,8 +644,12 @@ h1 {
   .q1{
     top: 27%;
     left: 55%;
-    width:auto;
-    height: 20%;
+    min-width: 40%;
+    max-width: 50%;
+    width: auto;
+    min-height: 6%;
+    max-height: 20%;
+    height: auto;
     font-size: 90%;
     background-color: transparent;
 
@@ -682,32 +685,56 @@ h1 {
 
   }
   .q3{
+    min-width: 40%;
+    max-width: 50%;
+    width: auto;
+    min-height: 6%;
+    max-height: 20%;
+    height: auto;
     top: 82%;
     left: 10%;
     width: 40%;
     height: 5%;
-    font-size: 2%;
+    font-size: 80%;
   }
   .q4{
+    min-width: 40%;
+    max-width: 50%;
+    width: auto;
+    min-height: 6%;
+    max-height: 20%;
+    height: auto;
     top: 82%;
     left: 10%;
     width: 40%;
     height: 5%;
-    font-size: 2%;
+    font-size: 80;
   }
   .q5{
+    min-width: 40%;
+    max-width: 50%;
+    width: auto;
+    min-height: 6%;
+    max-height: 20%;
+    height: auto;
     top: 82%;
     left: 10%;
     width: 40%;
     height: 5%;
-    font-size: 2%;
+    font-size: 80%;
   }
   .q6{
+    min-width: 40%;
+    max-width: 50%;
+    width: auto;
+    min-height: 6%;
+    max-height: 20%;
+    height: auto;
     top: 82%;
     left: 10%;
     width: 40%;
     height: 5%;
-    font-size: 2%;
+    font-size: 80%;
   }
   .ThereseEuch{
     width: 20%;
@@ -804,8 +831,12 @@ h1 {
   .q1{
     top: 32%;
     left: 55%;
-    width:auto;
-    height: 15%;
+    min-width: 40%;
+    max-width: 50%;
+    width: auto;
+    min-height: 6%;
+    max-height: 20%;
+    height: auto;
     font-size: 90%;
   }
   .Therese{
@@ -845,9 +876,12 @@ h1 {
   .q3{
     top: 125%;
     left: 10%;
+    min-width: 40%;
     max-width: 80%;
     width: auto;
-    height: 18%;
+    min-height: 6%;
+    max-height: 20%;
+    height: auto;
     font-size: 90%;
   }
 
@@ -861,15 +895,23 @@ h1 {
   .q4{
     top: 152%;
     left: 57%;
-    width: 40%;
-    height: 18%;
+    min-width: 40%;
+    max-width: 50%;
+    width: auto;
+    min-height: 6%;
+    max-height: 20%;
+    height: auto;
     font-size: 90%;
   }
   .q5{
     top: 172%;
     left: 57%;
-    width: 40%;
-    height: 17%;
+    min-width: 40%;
+    max-width: 50%;
+    width: auto;
+    min-height: 6%;
+    max-height: 20%;
+    height: auto;
     font-size: 90%;
   }
 
@@ -883,8 +925,12 @@ h1 {
   .q6{
     top: 200%;
     left: 4%;
-    width: 40%;
-    height: 25%;
+    min-width: 25%;
+    max-width: 40%;
+    width: auto;
+    min-height: 6%;
+    max-height: 40%;
+    height: auto;
     font-size: 100%;
   }
 
