@@ -923,16 +923,17 @@ h1 {
   }
 
   .q3{
-    top: 190%;
+    top: 195%;
     left: 4%;
     min-width: 25%;
     max-width: 40%;
     width: auto;
     min-height: 6%;
-    max-height: 30%;
+    max-height: 40%;
     height: auto;
     font-size: 80%;
   }
+
 
   .ThereseFam{
     width: 20%;
