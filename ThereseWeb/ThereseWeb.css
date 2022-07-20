@@ -873,11 +873,11 @@ h1 {
     left: 14%;
   }
 
-  .q3{
+  .q6{
     top: 125%;
     left: 10%;
     min-width: 40%;
-    max-width: 85%;
+    max-width: 80%;
     width: auto;
     min-height: 6%;
     max-height: 30%;
@@ -888,12 +888,12 @@ h1 {
   .ThereseS{
     width: 50%;
     height: 40%;
-    top: 150%;
+    top: 145%;
     left: 5%;
   }
 
   .q4{
-    top: 152%;
+    top: 148%;
     left: 57%;
     min-width: 40%;
     max-width: 50%;
@@ -904,7 +904,7 @@ h1 {
     font-size: 90%;
   }
   .q5{
-    top: 172%;
+    top: 168%;
     left: 57%;
     min-width: 40%;
     max-width: 50%;
@@ -922,8 +922,8 @@ h1 {
     top: 195%;
   }
 
-  .q6{
-    top: 200%;
+  .q3{
+    top: 195%;
     left: 4%;
     min-width: 25%;
     max-width: 40%;
