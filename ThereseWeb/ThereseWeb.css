@@ -89,7 +89,7 @@ body::-webkit-scrollbar {
     z-index: 1;
     color: rgb(255, 255, 255);
     background-color: transparent;
-    outline-style: auto, white;
+    outline: solid white;
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
     padding: 1%;
     right: 10%;
@@ -105,7 +105,7 @@ body::-webkit-scrollbar {
     z-index: 1;
     color: rgb(255, 255, 255);
     background-color: transparent;
-    outline-style: auto, white;
+    outline: solid white;
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
     padding: 1%;
     left: 15%;
@@ -206,7 +206,7 @@ h1 {
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
     padding: 2%;
     background-color: transparent;
-    outline-style: auto, white;
+    outline: solid white;
     animation: 2s anim-lineUp ease-out;
     transform: translate(-50%),(-50%);
 }
@@ -222,8 +222,8 @@ h1 {
   z-index: 1;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
   padding: 2%;
-  outline-style: auto, white;
-  outline-style: auto, white;
+  background-color: transparent;
+  outline: solid white;
   animation: 2s anim-lineUp ease-out;
 }
 
@@ -239,7 +239,7 @@ h1 {
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
   padding: 2%;
   background-color: transparent;
-  outline-style: auto, white;
+  outline: solid white;
   animation: 2s anim-lineUp ease-out;
 }
 
@@ -255,7 +255,7 @@ h1 {
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
   padding: 1rem;
   background-color: transparent;
-  outline-style: auto, white;
+  outline: solid white;
   animation: 2s anim-lineUp ease-out;
 }
 
@@ -271,7 +271,7 @@ h1 {
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
   padding: 1rem;
   background-color: transparent;
-  outline-style: auto, white;
+  outline: solid white;
   animation: 2s anim-lineUp ease-out;
 }
 
@@ -287,7 +287,7 @@ h1 {
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
   padding: 1rem;
   background-color: transparent;
-  outline-style: auto, white;
+  outline: solid white;
   animation: 2s anim-lineUp ease-out;
 }
 
@@ -303,7 +303,7 @@ h1 {
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
   padding: 1rem;
   background-color: transparent;
-  outline-style: auto, white;
+  outline: solid white;
   animation: 2s anim-lineUp ease-out;
 }
 
@@ -649,7 +649,7 @@ h1 {
     height: 20%;
     font-size: 90%;
     background-color: transparent;
-    outline-style: auto, white;
+
   }
   .Therese{
     width: 35%;
@@ -667,7 +667,7 @@ h1 {
     height: auto;
     font-size: 80%;
     background-color: transparent;
-    outline-style: auto, white;
+
   }
   .q7{
     top: 65%;
@@ -679,7 +679,7 @@ h1 {
     height: auto;
     font-size: 80%;
     background-color: transparent;
-    outline-style: auto, white;
+
   }
   .q3{
     top: 82%;
@@ -687,7 +687,6 @@ h1 {
     width: 40%;
     height: 5%;
     font-size: 2%;
-    outline-style: auto, white;
   }
   .q4{
     top: 82%;
@@ -695,7 +694,6 @@ h1 {
     width: 40%;
     height: 5%;
     font-size: 2%;
-    outline-style: auto, white;
   }
   .q5{
     top: 82%;
@@ -703,7 +701,6 @@ h1 {
     width: 40%;
     height: 5%;
     font-size: 2%;
-    outline-style: auto, white;
   }
   .q6{
     top: 82%;
@@ -711,7 +708,6 @@ h1 {
     width: 40%;
     height: 5%;
     font-size: 2%;
-    outline-style: auto, white;
   }
   .ThereseEuch{
     width: 20%;
@@ -811,7 +807,6 @@ h1 {
     width:auto;
     height: 15%;
     font-size: 90%;
-    outline-style: auto, white;
   }
   .Therese{
     width: 35%;
@@ -828,7 +823,6 @@ h1 {
     max-height: 20%;
     height: auto;
     font-size: 80%;
-    outline-style: auto, white;
   }
   .q7{
     top: 76%;
@@ -839,7 +833,6 @@ h1 {
     min-height: 6%;
     height: auto;
     font-size: 80%;
-    outline-style: auto, white;
   }
 
   .Tpic2{
@@ -856,7 +849,6 @@ h1 {
     width: auto;
     height: 18%;
     font-size: 90%;
-    outline-style: auto, white;
   }
 
   .ThereseS{
@@ -872,7 +864,6 @@ h1 {
     width: 40%;
     height: 18%;
     font-size: 90%;
-    outline-style: auto, white;
   }
   .q5{
     top: 172%;
@@ -880,7 +871,6 @@ h1 {
     width: 40%;
     height: 17%;
     font-size: 90%;
-    outline-style: auto, white;
   }
 
   .ThereseEuch{
@@ -896,7 +886,6 @@ h1 {
     width: 40%;
     height: 25%;
     font-size: 100%;
-    outline-style: auto, white;
   }
 
   .ThereseFam{
