@@ -251,14 +251,17 @@ const quotes = [{
     quote: '"Occupy your minds with good thoughts, or the enemy will fill them with bad ones. Unoccupied, they cannot be."',
     writer: '- St. Thomas More'
 },{
-    quote: '""',
-    writer: ''
+    quote: '"Peace is not just the absence of war. Like a cathedral, peace must be constructed patiently and with unshakable faith."',
+    writer: '- St. Pope John Paul II'
 },{
-    quote: '""',
-    writer: ''
+    quote: '"Our souls may lose their peace and even disturb other people’s, if we are always criticizing trivial actions—which are often not real defects at all, but we construed them wrongly through our ignorance of their motives."',
+    writer: '- St. Teresa Of Avila'
 },{
-    quote: '""',
-    writer: ''
+    quote: '"Never be in a hurry; do everything quietly and in a calm spirit. Do not lose your inner peace for anything whatsoever, even if your whole world seems upset."',
+    writer: '- St. Francis De Sales'
+},{
+    quote: '"Go to the tabernacle in spirit when you are not able to do so physically!"',
+    writer: '- St. Pio Of Pietrelcina'
 },]
 
 
