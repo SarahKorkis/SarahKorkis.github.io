@@ -15,9 +15,58 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+.SoftLogo{
+  top: 1%;
+  left: 1%;
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
+  filter: invert(100);
+  outline-color: #262626;
+}
+
+.FeastH {
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  outline: solid white;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
+  padding: 1%;
+  right: 4%;
+  top: 6%;
+  text-decoration: none;
+  font-size: 120%;
+  font-weight: bold;
+  position:absolute;
+  transition: transform .3s ease;
+}
+
+.FeastH::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.FeastH:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.FeastH::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: rgba(255, 255, 255, 0.17);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+
 h1 {
-  top: 10%;
-  font-size: 5rem;
+  top: 15%;
+  font-size: 500%;
   color: white;
   position:absolute;
   z-index: 1;
@@ -53,14 +102,14 @@ h1::before {
     outline: solid white;
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
     padding: 1%;
-    right: 10%;
-    top: 12%;
+    right: 13%;
+    top: 6%;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 120%;
     font-weight: bold;
     position:absolute;
     transition: transform .3s ease;
-}
+  }
 
 .Generator::before {  
     transform: scaleX(0);
@@ -90,14 +139,14 @@ h1::before {
     outline: solid white;
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
     padding: 1%;
-    left: 15%;
-    top: 12%;
+    left: 69.5%;
+    top: 6%;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 120%;
     font-weight: bold;
     position:absolute;
     transition: transform .3s ease;
-}
+  }
 
 .Home::before {  
     transform: scaleX(0);
@@ -131,7 +180,7 @@ h1::before {
 
 
 .Benedict {
-    top: 57%;
+    top: 55.2%;
     left: 20rem;
     width: 8rem;
     height: 8rem;
@@ -155,7 +204,6 @@ h1::before {
     height: 8rem;
     position: absolute;
 	filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.536));
-    
 }
 
 .Barbara {
