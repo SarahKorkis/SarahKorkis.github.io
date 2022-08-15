@@ -12,6 +12,7 @@ body {
     height: 200%;
 }
 
+
 body::-webkit-scrollbar {
     display: none;
 }
@@ -655,208 +656,7 @@ h1 {
 
 
 
-@media only screen and (max-width: 420px){
-
-  body{
-    height: 250%;
-  }
-  
-  .Procession{
-    top: 0%;
-    width: 100%;
-  }
-
-  .SoftLogo{
-    top: 0%;
-    left: 1%;
-    width: 13%;
-    height: 8%;
-  }
-
-  .Header{
-    font-size: 200%;
-    top: 10%;
-    left: 32%;
-  }
-  .Generator{
-    font-size: 60%;
-    right: 18%;
-    top: 2%;
-  }
-  .Home{
-    font-size: 60%;
-    top: 2%;
-    left: 54%;
-  }
-
-  .FeastH{
-    font-size: 60%;
-    top: 2%;
-    right: 4%;
-  }
-
-
-  .Tpic1 {
-    width: 50%;
-    height: 20%;
-    top: 25%;
-    left: 2%;
-    border-radius: 10%;
-  }
-  .q1{
-    top: 27%;
-    left: 55%;
-    min-width: 40%;
-    max-width: 50%;
-    width: auto;
-    min-height: 6%;
-    max-height: 20%;
-    height: auto;
-    font-size: 90%;
-    background-color: transparent;
-
-  }
-  .Therese{
-    width: 35%;
-    height: 35%;
-    top:48%;
-  }
-  .q2{
-    top: 48%;
-    left: 5%;
-    min-width: 40%;
-    max-width: 50%;
-    width: auto;
-    min-height: 6%;
-    max-height: 20%;
-    height: auto;
-    font-size: 80%;
-    background-color: transparent;
-
-  }
-  .q7{
-    top: 65%;
-    left: 5%;
-    min-width: 40%;
-    max-width: 50%;
-    width: auto;
-    min-height: 6%;
-    height: auto;
-    font-size: 80%;
-    background-color: transparent;
-
-  }
-  .q3{
-    min-width: 40%;
-    max-width: 50%;
-    width: auto;
-    min-height: 6%;
-    max-height: 20%;
-    height: auto;
-    top: 82%;
-    left: 10%;
-    width: 40%;
-    height: 5%;
-    font-size: 80%;
-  }
-  .q4{
-    min-width: 40%;
-    max-width: 50%;
-    width: auto;
-    min-height: 6%;
-    max-height: 20%;
-    height: auto;
-    top: 82%;
-    left: 10%;
-    width: 40%;
-    height: 5%;
-    font-size: 80;
-  }
-  .q5{
-    min-width: 40%;
-    max-width: 50%;
-    width: auto;
-    min-height: 6%;
-    max-height: 20%;
-    height: auto;
-    top: 82%;
-    left: 10%;
-    width: 40%;
-    height: 5%;
-    font-size: 80%;
-  }
-  .q6{
-    min-width: 40%;
-    max-width: 50%;
-    width: auto;
-    min-height: 6%;
-    max-height: 20%;
-    height: auto;
-    top: 82%;
-    left: 10%;
-    width: 40%;
-    height: 5%;
-    font-size: 80%;
-  }
-  .ThereseEuch{
-    width: 20%;
-    height: 20%;
-    top: 80%;
-  }
-  .ThereseS{
-    width: 20%;
-    height: 20%;
-    top: 80%;
-    right: 100%;
-  }
-  .Tpic2{
-    width: 20%;
-    height: 20%;
-    top: 80%;
-  }
-  .ThereseFam{
-    width: 20%;
-    height: 20%;
-    top: 80%;
-  }
-  .Rose{
-    left:50%;
-  }
-  .Rose2{
-    left:10%;
-  }
-  .Rose3{
-    left:30%;
-  }
-  .Rose4{
-    left:70%;
-  }
-  .Rose5{
-    left:60%;
-  }
-  .Rose6{
-    left:20%;
-  }
-  .Rose7{
-    left:5%;
-  }
-  @keyframes roll{
-    0%{
-        opacity: 0;
-    }
-    50%{
-        opacity: 1;
-    }
-    100%{
-        transform: translateY(844px);
-        opacity: 0;
-    }
-}
-}
-
-
-
-@media only screen and (max-height: 750px){
+@media only screen and (max-width: 720px){
 
   body{
     height: 250%;
@@ -1048,3 +848,6 @@ h1 {
     }
 }
 }
+
+
+
